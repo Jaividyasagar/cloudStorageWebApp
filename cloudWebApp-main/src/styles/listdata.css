@@ -1,0 +1,104 @@
+.list{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 700px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex:2;
+    /* box-shadow:10px 5px 12px 10px cyan; */
+    box-shadow: 0 0 20px cyan;
+    background-color: black;
+    /* background-image: none; */
+    border-radius: 40px;
+    cursor: pointer;
+}
+.list p{
+    text-shadow: 0 0 20px cyan;
+}
+
+.img{
+    height: 200px;
+    width: 350px;
+    border-radius:50px;
+    margin: 20px;
+}
+.imgdoc {
+    height: 300px;
+    width: 350px;
+    border-radius: 50px;
+    /* margin: 10px; */
+    padding: 30px;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.download-btn{
+    margin: 10px;
+    background-color: green;
+    /* border: 1px solid green; */
+    /* background-color: black; */
+    color:aliceblue;
+    border:none;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.delete-btn{
+    margin: 10px;
+    background-color: red;
+    /* border: 1px solid red; */
+    color:aliceblue;
+    border:none;
+    height: 30px;
+    cursor:pointer;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.download-btn:hover{
+    opacity: 0.7;
+    background-color: green;
+}
+.delete-btn:hover{
+    opacity:0.7;
+    background-color: red;
+}
+
+/* .list .fileNameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 10px;
+} */
+.list .fileName{
+    font-size: larger;
+    margin-top: 30px; 
+    width: 190px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .noFiles{
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+.container .noFilesh1 {
+    color: white;
+    padding: 10px;
+}
+.clickable-container{
+    display: flex;
+    flex-direction: row;
+    /* border-radius: 30px; */
+}

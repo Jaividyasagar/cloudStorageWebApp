@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    background-color: purple;
+    position:fixed;
+    width: 100%;
+    margin: 0px;
+    top:0;
+} 
+
+#deact-btn {
+    border: 2px solid black;
+    transition: 0.2s;
+}
+
+#deact-btn:hover{
+    border-radius: 10px;
+    background-color: red;
+    border: 2px solid red;
+    border-bottom: none;
+    box-shadow: 0 0 10px red;
+    color: white;
+
+}
+ .items {
+    cursor: pointer;
+}

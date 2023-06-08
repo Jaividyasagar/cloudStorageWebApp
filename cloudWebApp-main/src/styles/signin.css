@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-attachment: fixed;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.signup {
+    text-decoration: none;
+}
